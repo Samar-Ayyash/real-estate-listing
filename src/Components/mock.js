@@ -1,4 +1,3 @@
-// src/components/mock.js
 export const properties = [
     {
       id: 1,

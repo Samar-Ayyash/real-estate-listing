@@ -14,7 +14,7 @@
   border-radius: 5px;
   padding: 10px;
   margin: 10px;
-  width: 200px; /* Adjust the width as needed */
+  width: 200px; 
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -30,3 +30,30 @@
 .property-card p {
   margin: 5px 0;
 }
+
+.property-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  background-color: #f8f8f8; /* Light background for the detail page */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.property-images {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.property-info {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.property-specs {
+  display: flex;
+  flex-direction: column;
+}
+
