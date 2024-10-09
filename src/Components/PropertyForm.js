@@ -10,7 +10,7 @@ const PropertyForm = ({ property = {}, onSubmit }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // You can add form validation here if needed
+    
     const newProperty = { title, address, price, thumbnail };
     onSubmit(newProperty);
     navigate('/');
